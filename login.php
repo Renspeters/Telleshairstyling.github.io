@@ -27,24 +27,21 @@
     </div>
     <div class="headblock7">
         <div class="block8">
-            <form class='login'name='login' method="POST">
-            <h3>Account maken</h3>
+            <form action = 'login_logic.php'class='login'name='login' method="POST">
+            <h3>Inloggen</h3>
         <div class="row">
             <p>Gebruikersnaam: </p>
-            <input type="text" name="naam" required/>
+            <input type="text" name="gebruikersnaam" required/>
         </div>
         <div class="row">
             <p>Wachtwoord: </p>
-            <input type="text" name="leeftijd" required/>
+            <input type="password" name="wachtwoord" required/>
         </div>
         <div class="row">
-            <p>Algemene voorwaarden: </p>
-            <input type="checkbox" name="av" required/>
-        </div>
-        <div class="row">
-            <input type="submit" name="submit" value='Inloggen' required/>
+            <input type="submit" name="submit" value='Inloggen' required class="submit"/>
         </div>
             </form>
+            <div class="register">Nog geen Account? Registreer <a href="../register.php" class="register2">Hier</a></div>
         </div>
     </div>
     

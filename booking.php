@@ -27,13 +27,14 @@
     <div class="headblock8">
         <div class="block9">
             <div class="header2">
-                <a href="" class="woman">Vrouw</a>
-                <a href="" class="woman">Man</a>
-                <a href="" class="woman">Kind</a>
-                <a href="" class="woman">Kleuren</a>
-                <a href="" class="woman">Stylen</a>
-                <a href="" class="woman">Combi</a>
-                <a href="" class="woman">Haarwerken</a>
+                <a href="woman.php" class="woman">Vrouw</a>
+                <a href="man.php" class="woman">Man</a>
+                <a href="child.php" class="woman">Kind</a>
+                <a href="color.php" class="woman">Kleuren</a>
+                <a href="style.php" class="woman">Stylen</a>
+                <a href="combo.php" class="woman">Combi</a>
+                <a href="hair.php" class="woman">Haarwerken</a>
+                <a href="together.php" class="woman">Samen gaan?</a>
             </div>
         </div>
     </div>

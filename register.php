@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index.css">
     <script src="/telleshairstyling/java/telles.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/f476c3b64c.js" crossorigin="anonymous"></script>
@@ -24,49 +25,30 @@
             <a href="login.php" class="contact">Login</a>
         </div>
     </div>
-    <div class="headblock">
-        <div class="block">
-            <div class="left">
-                <div class="cirkel1">
-                    
-                </div>
-                <a href="https://bjootify.com/salon/Groesbeek/telle-s-hairstyling" class="appointment">Maak een afspraak!</a>
-            </div>
-            
-            <div class="right">
-                <div class="cirkel2">
-                    
-                </div>
-            </div>
+    <div class="headblock7">
+        <div class="block8">
+            <form class='login'name='login' method="POST">
+            <h3>Account maken</h3>
+        <div class="row">
+            <p>Gebruikersnaam: </p>
+            <input type="text" name="naam" required class=""/>
+        </div>
+        <div class="row">
+            <p>Wachtwoord: </p>
+            <input type="text" name="leeftijd" required class=""/>
+        </div>
+        <div class="row">
+            <p>Algemene voorwaarden: </p>
+            <input type="checkbox" name="av" required/><h6>Afspraken dienen vooraf te worden gemaakt en kunnen tot 24 uur van tevoren kosteloos worden geannuleerd. Betaling dient direct na de behandeling te worden voldaan; we streven naar gewenste resultaten maar kunnen geen garanties bieden.</h6>
+        </div>
+        <div class="row">
+            <input type="submit" name="submit" value='Aanmaken' required class="submit"/>
+        </div>
+            </form>
             
         </div>
     </div>
-    <div class="line1"></div>
-    <div class="headblock2">
-        <div class="block2">
-            <div class="info1">
-                <div class="picture1"></div>
-                <div class="text1">
-                    <h3>Kleine gezellige professionele kapsalon op de Horst in Groesbeek. Parkeerplaats voor de deur. Kapsalon naast het woonhuis.
-                        Altijd op de hoogte van de laatste trends! Mannen, vrouwen en kids iedereen is welkom!</h3>
-                </div>
-            </div>
-            <div class="info2">
-                <div class="picture2"></div>
-                <div class="text2">
-                    <h3>Uw haar wordt altijd even gewassen. Even een momentje voor uzelf ook kunt u kiezen voor een heerlijke wasmassage!
-                        Aanrader!!</h3>
-                </div>
-            </div>
-            <div class="info3">
-                <div class="picture3"></div>
-                <div class="text3">
-                    <h3>Heeft u een leuk kapsel gezien of juist geen idee.. samen kijken we naar een geschikt model. Ook kleuren, extensions of kuren behoren tot de mogelijkheden!</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="line1"></div>
+    
     <div class="line2"></div>
     <div class="footer">
         <div class="footernav">

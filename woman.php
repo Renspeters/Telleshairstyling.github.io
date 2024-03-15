@@ -24,49 +24,20 @@
             <a href="login.php" class="contact">Login</a>
         </div>
     </div>
-    <div class="headblock">
-        <div class="block">
-            <div class="left">
-                <div class="cirkel1">
-                    
-                </div>
-                <a href="https://bjootify.com/salon/Groesbeek/telle-s-hairstyling" class="appointment">Maak een afspraak!</a>
-            </div>
-            
-            <div class="right">
-                <div class="cirkel2">
-                    
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    <div class="line1"></div>
-    <div class="headblock2">
-        <div class="block2">
-            <div class="info1">
-                <div class="picture1"></div>
-                <div class="text1">
-                    <h3>Kleine gezellige professionele kapsalon op de Horst in Groesbeek. Parkeerplaats voor de deur. Kapsalon naast het woonhuis.
-                        Altijd op de hoogte van de laatste trends! Mannen, vrouwen en kids iedereen is welkom!</h3>
-                </div>
-            </div>
-            <div class="info2">
-                <div class="picture2"></div>
-                <div class="text2">
-                    <h3>Uw haar wordt altijd even gewassen. Even een momentje voor uzelf ook kunt u kiezen voor een heerlijke wasmassage!
-                        Aanrader!!</h3>
-                </div>
-            </div>
-            <div class="info3">
-                <div class="picture3"></div>
-                <div class="text3">
-                    <h3>Heeft u een leuk kapsel gezien of juist geen idee.. samen kijken we naar een geschikt model. Ook kleuren, extensions of kuren behoren tot de mogelijkheden!</h3>
-                </div>
+    <div class="headblock8">
+        <div class="block9">
+            <div class="header2">
+                <a href="" class="woman1">Vrouw</a>
+                <a href="" class="woman">Man</a>
+                <a href="" class="woman">Kind</a>
+                <a href="" class="woman">Kleuren</a>
+                <a href="" class="woman">Stylen</a>
+                <a href="" class="woman">Combi</a>
+                <a href="" class="woman">Haarwerken</a>
             </div>
         </div>
     </div>
-    <div class="line1"></div>
+    
     <div class="line2"></div>
     <div class="footer">
         <div class="footernav">
