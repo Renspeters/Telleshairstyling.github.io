@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <title>Telles Hairstyling</title>
+    <?php
+    include 'conn.php';
+    ?>
+
 </head>
 <body>
     <div class="header">

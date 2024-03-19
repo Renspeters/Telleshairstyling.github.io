@@ -29,28 +29,37 @@
             <div class="header2">
                 <a href="woman.php" class="woman">Vrouw</a>
                 <a href="man.php" class="woman">Man</a>
-                <a href="child.php" class="woman1">Kind</a>
+                <a href="child.php" class="woman">Kind</a>
                 <a href="color.php" class="woman">Kleuren</a>
                 <a href="style.php" class="woman">Stylen</a>
                 <a href="" class="woman">Combi</a>
                 <a href="" class="woman">Haarwerken</a>
-                <a href="together.php" class="woman">Samen gaan?</a>
+                <a href="together.php" class="woman1">Samen gaan?</a>
             </div>
-            <div class="choose1">
-                <h4>T/M 12 jaar</h4><h4>€24,00-</h4><a href="" class="book">Boek</a>
+            <div class="products">
+                <div class="choose1">
+                    <h4>Knippen Heer of Dame + Kind 13 T/M 16 jaar</h4><h4>€00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose2">
+                    <h4>Knippen Heer of Dame + Kind T/M 12 jaar</h4><h4>Vanaf €00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose3">
+                    <h4>Knippen Heer of Dame + 2x kind T/M 12 jaar</h4><h4> €00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose4">
+                    <h4>Knippen 1 x Kind T/M 12 + 1 x 13 T/M 16 jaar</h4><h4> €00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose5">
+                    <h4>Knippen Heer + Dame</h4><h4> €00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose6">
+                <h4>2 x Knippen Dames</h4><h4> €00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose7">
+                    <h4>2 x Knippen Heren</h4><h4> €00-</h4><a href="" class="book">Boek</a>
+                </div>
             </div>
-            <div class="choose2">
-            <h4>2 x T/M 12 jaar</h4><h4>Vanaf €29,50-</h4><a href="" class="book">Boek</a>
-            </div>
-            <div class="choose3">
-            <h4>13 T/M 16 jaar</h4><h4> €26,50-</h4><a href="" class="book">Boek</a>
-            </div>
-            <div class="choose4">
-            <h4>3 x Knippen kind T/M 12 jaar (achter elkaar)</h4><h4>€36,50-</h4><a href="" class="book">Boek</a>
-            </div>
-            <div class="choose5">
-            <h4>Krullen Knippen met Krultechniek in natuurlijk krullend haar.</h4><h4>€24,00-</h4><a href="" class="book">Boek</a>
-            </div>
+            
         </div>
     </div>
     

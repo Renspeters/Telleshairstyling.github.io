@@ -27,13 +27,31 @@
     <div class="headblock8">
         <div class="block9">
             <div class="header2">
-                <a href="" class="woman1">Vrouw</a>
-                <a href="" class="woman">Man</a>
-                <a href="" class="woman">Kind</a>
-                <a href="" class="woman">Kleuren</a>
-                <a href="" class="woman">Stylen</a>
+                <a href="woman.php" class="woman1">Vrouw</a>
+                <a href="man.php" class="woman">Man</a>
+                <a href="child.php" class="woman">Kind</a>
+                <a href="color.php" class="woman">Kleuren</a>
+                <a href="style.php" class="woman">Stylen</a>
                 <a href="" class="woman">Combi</a>
                 <a href="" class="woman">Haarwerken</a>
+                <a href="together.php" class="woman">Samen gaan?</a>
+            </div>
+            <div class="products">
+                <div class="choose1">
+                    <h4>Knippen Wassen Dames</h4><h4>€24,00-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose2">
+                    <h4>Knippen Wassen Föhnen Dames</h4><h4>Vanaf €29,50-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose3">
+                    <h4>Knippen Wassen Drogen Dames</h4><h4> €26,50-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose4">
+                <h4>VIP knipbehandeling Dame</h4><h4>€36,50-</h4><a href="" class="book">Boek</a>
+                </div>
+                <div class="choose5">
+                    <h4>Krullen Knippen met Krultechniek in natuurlijk krullend haar.</h4><h4>€24,00-</h4><a href="" class="book">Boek</a>
+                </div>
             </div>
         </div>
     </div>

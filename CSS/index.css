@@ -6,13 +6,12 @@
 .header{
     height: 110px;
     width: 100%;
-    background-color: #324F38;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    border-radius: 20px;
 }
 .login{
     color: #fff;
@@ -39,9 +38,9 @@
 }
 .header2{
     height: 110px;
-    width: 100%;
+    width: 80%;
     background-color: #324F38;
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,16 +50,19 @@
 .headblock{
     height: 1000px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
 }
 .navbar{
-    width: 60%;
-    height: 100px;
+    width: 80%;
+    height: 110px;
     display: flex;
     align-items: center;
     gap: 60px;
+    justify-content: center;
+    background-color: #324F38;
+    border-radius: 20px;
 }
 .logo{
     height: 100px;
@@ -176,7 +178,7 @@
     text-decoration: none;
     color: #000000;
     height: 30px;
-    width: 100px;
+    width: 110px;
     background-color: #d5d5d5;
     border-radius: 13px;
     text-align: center;
@@ -190,7 +192,7 @@
     text-decoration: none;
     color: #ffffff;
     height: 30px;
-    width: 100px;
+    width: 110px;
     background-color: #000000;
     border-radius: 13px;
     text-align: center;
@@ -212,14 +214,14 @@
 .headblock3{
     height: 1200px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
 }
 .headblock4{
     height: 640px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -236,21 +238,21 @@
 .headblock6{
     height: 640px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
 }
 .headblock7{
     height: 640px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
 }
 .headblock8{
-    height: 640px;
+    height: 1105px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
 }
@@ -315,11 +317,14 @@
     align-items: center;
 }
 .block9{
-    height: 485px;
+    height: 575px;
     width: 80%;
     background-color: #D5D5D5;
     margin-top: 150px;
     border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .submit{
@@ -665,7 +670,103 @@
     color: #fff;
     align-items: center;
 }
-
+.book{
+    height: 50px;
+    width: 100px;
+    background-color: #1bb1a4;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.choose1{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+    margin-top: 10px;
+}
+.choose2{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+}
+.choose3{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+}
+.choose4{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+}
+.choose5{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+}
+.choose6{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+}
+.choose7{
+    height: 100px;
+    width: 70%;
+    background-color: #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  "Noto Sans", sans-serif;
+    gap: 100px;
+}
+.products{
+    height: 800px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 20px;
+}
 .register{
     color: #fff;
     text-decoration: none;
@@ -810,7 +911,7 @@ img {vertical-align: middle;}
     animation-name: fade;
     animation-duration: 1.5s;
 }
-  
+
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
