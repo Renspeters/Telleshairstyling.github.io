@@ -30,6 +30,10 @@
             <form class='login'name='login' method="POST">
             <h3>Account maken</h3>
         <div class="row">
+            <p>Email: </p>
+            <input type="text" name="mail" required class=""/>
+        </div>
+        <div class="row">
             <p>Gebruikersnaam: </p>
             <input type="text" name="naam" required class=""/>
         </div>
