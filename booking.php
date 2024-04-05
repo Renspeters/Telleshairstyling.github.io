@@ -13,8 +13,9 @@
     <title>Telles Hairstyling</title>
     <?php
     include 'conn.php';
-    ?>
 
+    
+    ?>
 </head>
 <body>
     <div class="header">
@@ -29,15 +30,19 @@
         </div>
     </div>
     <div class="headblock8">
+        
         <div class="block9">
-            <div class="woman"></div>
-            <div class="man"></div>
-            <div class="child"></div>
-            <div class="color"></div>
-            <div class="style"></div>
-            <div class="combo"></div>
-            <div class="hair"></div>
-            <div class="together"></div>
+            <div class="woman">
+             <div class="vrouw"><h2>Boek hier uw afspraak</h2></div>
+             <?php
+             $stmt = $connection->query("SELECT * FROM booking2");
+             while ($row = $stmt->fetch()){
+             echo $row['behandeling'] ."<br />\n";
+             echo $row['prijs'] ."<br />\n";
+             }
+            ?>
+            </div>
+            
         </div>
     </div>
     
