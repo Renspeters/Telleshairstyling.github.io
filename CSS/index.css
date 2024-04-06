@@ -320,124 +320,12 @@
     border-bottom-style: solid;
    margin-left: 10px;
 }
-.men{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
+.products2{
+    height: auto;
+    width: 80%;
     display: flex;
-    justify-content: center;
-}
-.man{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
-}
-.child{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-}
-.kind{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
-}
-.color{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-}
-.kleur{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
-}
-.style{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-}
-.stijl{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
-}
-.combo{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-}
-.combo2{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
-}
-.hair{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-}
-.haarwerk{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
-}
-.together{
-    height: 300px;
-    width: 100%;
-    background-color: #a5a5a5;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-}
-.samen{
-    width: 95%;
-    background-color: #a5a5a5;
-    height: 30px;
-    border-radius: 13px 13px 0px 0px;
-    font-family: "Noto Sans", sans-serif;
-    border-bottom-style: solid;
-   margin-left: 10px;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 .submit{
     background-color: #169c2a;
