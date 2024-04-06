@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .header{
     height: 110px;
@@ -223,11 +224,13 @@
     justify-content: center;
 }
 .headblock8{
-    height: 3000px;
+    height: auto;
     width: 100%;
     background-color: #d5d5d5;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
 }
 .block3{
     height: 930px;
@@ -300,16 +303,13 @@
     gap: 20px;
 }
 .woman{
-    height: 300px;
+    height: auto;
     width: 100%;
     background-color: #a5a5a5;
     border-radius: 13px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.woman1{
-    background-color: black;
 }
 .vrouw{
     width: 95%;
@@ -318,14 +318,18 @@
     border-radius: 13px 13px 0px 0px;
     font-family: "Noto Sans", sans-serif;
     border-bottom-style: solid;
-   margin-left: 10px;
+    
 }
 .products2{
     height: auto;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    gap: 100px;
+    margin-top: 50px;
+    background-color: #5a5a5a;
+    font-size: 30px;
+    color: white;
 }
 .submit{
     background-color: #169c2a;

@@ -37,9 +37,9 @@
              <?php
              $stmt = $connection->query("SELECT * FROM booking2");
              while ($row = $stmt->fetch()){
-                echo "<div class='products'";
+                echo "<div class='products2'";
                 echo "<h2>" . $row["behandeling"] . "</h2>";
-                echo "<p>Prijs: " . $row["prijs"] . "</p>";
+                echo "<p>" . $row["prijs"] . "</p>";
                 echo "</div>";
              }
             ?>
