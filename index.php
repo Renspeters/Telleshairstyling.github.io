@@ -30,7 +30,7 @@
                 <div class="cirkel1">
                     
                 </div>
-                <a href="https://bjootify.com/salon/Groesbeek/telle-s-hairstyling" class="appointment">Maak een afspraak!</a>
+                <a href="booking.php" class="appointment">Maak een afspraak!</a>
             </div>
             
             <div class="right">

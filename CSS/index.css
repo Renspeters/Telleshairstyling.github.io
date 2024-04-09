@@ -25,6 +25,11 @@
     gap: 10px;
     width: 100%;
 }
+.update{
+    height: 200px;
+    width: 90%;
+    margin-top: 100px;
+}
 .row{
     font-family: "Noto Sans", sans-serif;
     color: #fff;
