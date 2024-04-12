@@ -56,7 +56,7 @@
                 </div>
                 
             </div>
-            
+             
             <div class="right1">
                 
                 <div class="cirkel5">

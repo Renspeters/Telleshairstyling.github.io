@@ -49,8 +49,8 @@
     </div>
     
     <div class="line2"></div>
-    <div class="footer">
-        <div class="footernav">
+    <div class="footer1">
+        <div class="footernav1">
             <h4>©2024 - telleshairstyling</h4>
             <div class="socials">
                 <div class="insta">

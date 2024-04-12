@@ -41,19 +41,36 @@ include 'conn.php';
         </div>
     </div>
     <div class="update">
-    <?php
+   
+   <?php
     // $stmt = $connection->prepare("SELECT * FROM booking2");
     // $stmt->execute();
     // $data = $stmt->fetch();
 
     foreach ($data as $row){
-        echo $row['behandeling'];
-        echo "<a href='product_update.php?id=".$row['id']."'>Update</a>";
-        echo "<a href='product_delete.php?id=".$row['id']."'>Delete</a>";
+        echo "<div class='list-items'>";
+        echo "<a class='update' href=''>" . $row['behandeling']. ': ' . "</a>";
+        echo "<br>";
+        echo "<br>";
+        echo "<a class='button-list' href='product_update.php?id=".$row['id']."'>Update</a>";
+        echo "<a class='space' >    </a>";
+        echo "<a class='button-list' href='product_delete.php?id=".$row['id']."'>Delete</a>";
+        echo "</div>";
     }
-    
-
     ?>
+    <form class='register_form' action='user_delete_logic.php' name='user_delete_logic'method="POST">
+            <div class="back-sh">
+                <a href="/index.php" class="backi"><-- Back</a>
+            </div>
+            <label>gebruiker verwijderen</label>
+                <div class="row55">
+                    <label>Id van user: </label>
+                    <input type="text" name="id_user"placeholder="   id of user" required>
+                </div>
+                <div class="row55">
+                    <input type="submit" value='delete user' class="button-log"/>
+                </div>
+            </form>
 </div>
 </body>
 </html>
