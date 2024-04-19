@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'conn.php';
+include '../conn.php';
 
 
 $userid = $_POST["id_user"];
@@ -12,5 +12,5 @@ $stmt->bindParam(":userid", $userid);
 $stmt->execute();
 
 
-header('Location: dashboard.php')
+header('Location: ../dashboard.php')
 ?>

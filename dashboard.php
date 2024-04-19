@@ -33,11 +33,11 @@ include 'conn.php';
         <div class="navbar">
             <a href="index.php"><img class="logo" src="images/TellesHairstyling-logozwart.webp"></a>
             <a href="index.php" class="home">Home</a>
-            <a href="gallery.php" class="gallery">Gallerij</a>
-            <a href="about.php" class="about">About</a>
-            <a href="contact.php" class="contact">Contact</a>
-            <a href="booking.php" class="contact">Boeken</a>
-            <a href="login.php" class="contact">Login</a>
+            <a href="pages/gallery.php" class="gallery">Gallerij</a>
+            <a href="pages/about.php" class="about">About</a>
+            <a href="pages/contact.php" class="contact">Contact</a>
+            <a href="pages/booking.php" class="contact">Boeken</a>
+            <a href="pages/login.php" class="contact">Login</a>
         </div>
     </div>
     <div class="update">

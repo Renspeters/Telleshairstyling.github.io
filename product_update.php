@@ -17,7 +17,7 @@ $product = $stmt->fetch();
     <title>Document</title>
 </head>
 <body>
-    <form action='product_update_logic.php' name='product_update_logic.php' method="POST">
+    <form action='../logics/product_update_logic.php' name='product_update_logic.php' method="POST">
         <label>Id van product: </label>
         <input type="text" name="id_product" value="<?php echo $product['id']; ?>" requierd>
         <label>Naam van product: </label>

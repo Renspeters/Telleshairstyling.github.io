@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include 'conn.php';
+include '../conn.php';
 
 
 $gebruikersnaam = $_POST["gebruikersnaam"];
@@ -16,7 +16,7 @@ $user = $stmt->fetch();
 
 if ($user){
     $_SESSION["username"] = $gebruikersnaam;
-    header("Location: dashboard.php");
+    header("Location: ../dashboard.php");
 
 }
     else{

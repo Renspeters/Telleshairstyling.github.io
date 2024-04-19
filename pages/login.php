@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="../CSS/index.css">
     <script src="/telleshairstyling/java/telles.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,18 +16,18 @@
 <body>
     <div class="header">
         <div class="navbar">
-            <a href="index.php"><img class="logo" src="images/TellesHairstyling-logozwart.webp"></a>
-            <a href="index.php" class="home">Home</a>
-            <a href="gallery.php" class="gallery">Gallerij</a>
-            <a href="about.php" class="about">About</a>
-            <a href="contact.php" class="contact">Contact</a>
-            <a href="booking.php" class="contact">Boeken</a>
-            <a href="login.php" class="contact">Login</a>
+            <a href="../index.php"><img class="logo" src="../images/TellesHairstyling-logozwart.webp"></a>
+            <a href="../index.php" class="home">Home</a>
+            <a href="../pages/gallery.php" class="gallery">Gallerij</a>
+            <a href="../pages/about.php" class="about">About</a>
+            <a href="../pages/contact.php" class="contact">Contact</a>
+            <a href="../pages/booking.php" class="contact">Boeken</a>
+            <a href="../pages/login.php" class="contact">Login</a>
         </div>
     </div>
     <div class="headblock7">
         <div class="block8">
-            <form action = 'login_logic.php'class='login'name='login' method="POST">
+            <form action = '../logics/login_logic.php'class='login'name='login' method="POST">
             <h3>Inloggen</h3>
         <div class="row">
             <p>Gebruikersnaam: </p>

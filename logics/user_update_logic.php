@@ -1,5 +1,5 @@
 <?php
-include 'conn.php';
+include '../conn.php';
 $data = [
     'gebruikersnaam' => $_POST['gebruikersnaam'],
     'wachtwoord' => $_POST['wachtwoord'],
@@ -9,5 +9,5 @@ $sql = "UPDATE users SET gebruikersnaam=:gebruikersnaam, wachtwoord=:wachtwoord 
 $stmt= $connection->prepare($sql);
 $stmt->execute($data);
 
-header('Location: dashboard.php');
+header('Location: ../dashboard.php');
 ?>

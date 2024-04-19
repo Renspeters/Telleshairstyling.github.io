@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include 'conn.php';
+include '../conn.php';
 
 $gebruikersnaam = $_POST["gebruikersnaam"];
 $wachtwoord = $_POST["wachtwoord"];
@@ -13,5 +13,5 @@ $stmt->bindParam(":wachtwoord", $wachtwoord);
 $stmt->bindParam(":email", $email);
 $stmt->execute();
 
-header("Location: login.php");
+header("Location: ../login.php");
 ?>

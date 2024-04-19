@@ -1,5 +1,5 @@
 <?php
-include 'conn.php';
+include '../conn.php';
 $data = [
     'behandeling' => $_POST['behandeling'],
     'prijs' => $_POST['prijs'],
@@ -9,5 +9,5 @@ $sql = "UPDATE booking2 SET behandeling=:behandeling, prijs=:prijs where id=:id"
 $stmt= $connection->prepare($sql);
 $stmt->execute($data);
 
-header('Location: dashboard.php');
+header('Location: ../dashboard.php');
 ?>
